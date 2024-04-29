@@ -1,0 +1,19 @@
+$foregroundCol = 0xffdededf
+$backgroundCol = 0xff0f0f10
+$color0 = 0xff0f0f10
+$color1 = 0xff6F798C
+$color2 = 0xff7C8CA8
+$color3 = 0xff506282
+$color4 = 0xffA39C90
+$color5 = 0xff354540
+$color6 = 0xff5D8B79
+$color7 = 0xffA85A5E
+$color8 = 0xff9B9B9C
+$color9 = 0xff6F798C
+$color10 = 0xff7C8CA8
+$color11 = 0xff506282
+$color12 = 0xffA39C90
+$color13 = 0xff354540
+$color14 = 0xff5D8B79
+$color15 = 0xffA85A5E
+
