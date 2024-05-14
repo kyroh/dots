@@ -1,3 +1,17 @@
-2024/04/29-15:42:20.655 902f Reusing MANIFEST /home/kyroh/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/04/29-15:42:20.656 902f Recovering log #11
-2024/04/29-15:42:20.656 902f Reusing old log /home/kyroh/.config/discord/Local Storage/leveldb/000011.log 
+2024/05/09-21:04:47.068 5be Reusing MANIFEST /home/kyroh/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/09-21:04:47.072 5be Recovering log #65
+2024/05/09-21:04:47.072 5be Reusing old log /home/kyroh/.config/discord/Local Storage/leveldb/000065.log 
+2024/05/10-06:37:33.767 5be Level-0 table #69: started
+2024/05/10-06:37:33.775 5be Level-0 table #69: 30593 bytes OK
+2024/05/10-06:37:33.780 5be Delete type=0 #65
+2024/05/10-06:37:33.780 5be Compacting 4@0 + 2@1 files
+2024/05/10-06:37:33.793 5be Generated table #70@0: 11 keys, 2315027 bytes
+2024/05/10-06:37:33.821 5be Generated table #71@0: 90 keys, 3091533 bytes
+2024/05/10-06:37:33.821 5be Compacted 4@0 + 2@1 files => 5406560 bytes
+2024/05/10-06:37:33.824 5be compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/05/10-06:37:33.824 5be Delete type=2 #63
+2024/05/10-06:37:33.824 5be Delete type=2 #58
+2024/05/10-06:37:33.824 5be Delete type=2 #66
+2024/05/10-06:37:33.824 5be Delete type=2 #60
+2024/05/10-06:37:33.824 5be Delete type=2 #69
+2024/05/10-06:37:33.824 5be Delete type=2 #57

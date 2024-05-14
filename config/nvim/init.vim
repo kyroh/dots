@@ -4,27 +4,11 @@ set relativenumber
 
 colorscheme main
 
-autocmd VimEnter * NERDTree
 
 if (has("termguicolors"))
   set termguicolors
 endif
 
-autocmd BufEnter * HexokinaseTurnOn
-
-let g:Hexokinase_highlighters = ['backgroundfull']
-
-let g:Hexokinase_optInPatterns = [
-            \ 'full_hex', 
-            \ 'triple_hex', 
-            \ 'rgb', 
-            \ 'rgba', 
-            \ 'hsl', 
-            \ 'hsla'
-            \ ]
-
-let g:Hexokinase_refreshEvents = ['TextChanged', 'TextChangedI']
-let g:Hexokinase_refreshDelay = 1000
 set clipboard+=unnamedplus
 
 
@@ -41,7 +25,13 @@ vnoremap <C-S-C> "+y
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'preservim/nerdtree'
-Plug 'RRethy/vim-hexokinase', {'do': 'make hexokinase'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.6' }
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'Heliferepo/VimUtils'
+Plug 'lervag/vimtex'
+Plug 'lervag/vimtex', { 'tag': 'v2.15' }
 
 call plug#end()
 
