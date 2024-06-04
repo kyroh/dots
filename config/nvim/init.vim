@@ -22,6 +22,9 @@ nnoremap <leader>fb :Telescope buffers<CR>
 nnoremap <leader>fh :Telescope help_tags<CR>
 nnoremap <leader>cc :ColorizerToggle <CR>
 nnoremap <leader>s :w<CR>
+nnoremap <leader>. :bnext<CR>
+nnoremap <leader>, :bprev<CR>
+
 
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
@@ -40,6 +43,7 @@ Plug 'rebelot/kanagawa.nvim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'numToStr/Comment.nvim'
 
 call plug#end()
 
@@ -48,6 +52,7 @@ colorscheme kanagawa
 " Nvim Tree Setup
 let g:loaded_netrw = 1
 let g:loaded_netrwPlugin = 1
+lua require('Comment').setup()
 
 lua << EOF
 require("nvim-tree").setup()
