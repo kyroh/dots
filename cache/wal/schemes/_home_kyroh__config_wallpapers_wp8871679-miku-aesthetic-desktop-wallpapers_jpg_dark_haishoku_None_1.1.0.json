@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyroh/.config/wallpapers/wp8871679-miku-aesthetic-desktop-wallpapers.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1a191e",
+        "foreground": "#c5c5c6",
+        "cursor": "#c5c5c6"
+    },
+    "colors": {
+        "color0": "#1a191e",
+        "color1": "#54456d",
+        "color2": "#843d53",
+        "color3": "#6b546f",
+        "color4": "#c44051",
+        "color5": "#8d6b77",
+        "color6": "#d8605d",
+        "color7": "#c5c5c6",
+        "color8": "#535256",
+        "color9": "#54456d",
+        "color10": "#843d53",
+        "color11": "#6b546f",
+        "color12": "#c44051",
+        "color13": "#8d6b77",
+        "color14": "#d8605d",
+        "color15": "#c5c5c6"
+    }
+}

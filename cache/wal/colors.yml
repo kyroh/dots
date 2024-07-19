@@ -1,0 +1,24 @@
+wallpaper: "/home/kyroh/.config/wallpapers/763931.png"
+
+special:
+    background: "#0e0f18"
+    foreground: "#efe6e0"
+    cursor: "#efe6e0"
+
+colors:
+    color0: "#0e0f18"
+    color1: "#476E90"
+    color2: "#967789"
+    color3: "#55B5CB"
+    color4: "#AA9598"
+    color5: "#D4AB99"
+    color6: "#C6D5D1"
+    color7: "#efe6e0"
+    color8: "#a7a19c"
+    color9: "#476E90"
+    color10: "#967789"
+    color11: "#55B5CB"
+    color12: "#AA9598"
+    color13: "#D4AB99"
+    color14: "#C6D5D1"
+    color15: "#efe6e0"

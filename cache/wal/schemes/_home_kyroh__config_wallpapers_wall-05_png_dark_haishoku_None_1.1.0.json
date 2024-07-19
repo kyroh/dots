@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyroh/.config/wallpapers/wall-05.png",
+    "alpha": "100",
+    "special": {
+        "background": "#181717",
+        "foreground": "#c5c5c5",
+        "cursor": "#c5c5c5"
+    },
+    "colors": {
+        "color0": "#181717",
+        "color1": "#444342",
+        "color2": "#703e29",
+        "color3": "#614e49",
+        "color4": "#515963",
+        "color5": "#6f625f",
+        "color6": "#7d7f83",
+        "color7": "#c5c5c5",
+        "color8": "#515151",
+        "color9": "#444342",
+        "color10": "#703e29",
+        "color11": "#614e49",
+        "color12": "#515963",
+        "color13": "#6f625f",
+        "color14": "#7d7f83",
+        "color15": "#c5c5c5"
+    }
+}

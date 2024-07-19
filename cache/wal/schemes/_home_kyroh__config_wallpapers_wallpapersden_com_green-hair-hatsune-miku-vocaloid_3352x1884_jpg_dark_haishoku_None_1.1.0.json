@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/kyroh/.config/wallpapers/wallpapersden.com_green-hair-hatsune-miku-vocaloid_3352x1884.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#18191a",
+        "foreground": "#c5c5c5",
+        "cursor": "#c5c5c5"
+    },
+    "colors": {
+        "color0": "#18191a",
+        "color1": "#264a5e",
+        "color2": "#465b4d",
+        "color3": "#3e676f",
+        "color4": "#758982",
+        "color5": "#95ad98",
+        "color6": "#96afb6",
+        "color7": "#c5c5c5",
+        "color8": "#515253",
+        "color9": "#264a5e",
+        "color10": "#465b4d",
+        "color11": "#3e676f",
+        "color12": "#758982",
+        "color13": "#95ad98",
+        "color14": "#96afb6",
+        "color15": "#c5c5c5"
+    }
+}

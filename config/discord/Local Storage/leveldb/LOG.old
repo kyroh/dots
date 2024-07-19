@@ -1,17 +1,40 @@
-2024/05/09-21:04:47.068 5be Reusing MANIFEST /home/kyroh/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/05/09-21:04:47.072 5be Recovering log #65
-2024/05/09-21:04:47.072 5be Reusing old log /home/kyroh/.config/discord/Local Storage/leveldb/000065.log 
-2024/05/10-06:37:33.767 5be Level-0 table #69: started
-2024/05/10-06:37:33.775 5be Level-0 table #69: 30593 bytes OK
-2024/05/10-06:37:33.780 5be Delete type=0 #65
-2024/05/10-06:37:33.780 5be Compacting 4@0 + 2@1 files
-2024/05/10-06:37:33.793 5be Generated table #70@0: 11 keys, 2315027 bytes
-2024/05/10-06:37:33.821 5be Generated table #71@0: 90 keys, 3091533 bytes
-2024/05/10-06:37:33.821 5be Compacted 4@0 + 2@1 files => 5406560 bytes
-2024/05/10-06:37:33.824 5be compacted to: files[ 0 3 1 0 0 0 0 ]
-2024/05/10-06:37:33.824 5be Delete type=2 #63
-2024/05/10-06:37:33.824 5be Delete type=2 #58
-2024/05/10-06:37:33.824 5be Delete type=2 #66
-2024/05/10-06:37:33.824 5be Delete type=2 #60
-2024/05/10-06:37:33.824 5be Delete type=2 #69
-2024/05/10-06:37:33.824 5be Delete type=2 #57
+2024/07/18-20:52:04.743 542 Reusing MANIFEST /home/kyroh/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/07/18-20:52:04.746 542 Recovering log #59
+2024/07/18-20:52:04.747 542 Reusing old log /home/kyroh/.config/discord/Local Storage/leveldb/000059.log 
+2024/07/18-20:53:05.246 543 Level-0 table #63: started
+2024/07/18-20:53:05.269 543 Level-0 table #63: 24550 bytes OK
+2024/07/18-20:53:05.270 543 Delete type=0 #59
+2024/07/18-20:53:05.270 543 Compacting 4@0 + 2@1 files
+2024/07/18-20:53:05.276 543 Generated table #64@0: 6 keys, 2382620 bytes
+2024/07/18-20:53:05.284 543 Generated table #65@0: 51 keys, 819348 bytes
+2024/07/18-20:53:05.284 543 Compacted 4@0 + 2@1 files => 3201968 bytes
+2024/07/18-20:53:05.285 543 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/07/18-20:53:05.285 543 Delete type=2 #58
+2024/07/18-20:53:05.285 543 Delete type=2 #53
+2024/07/18-20:53:05.285 543 Delete type=2 #54
+2024/07/18-20:53:05.285 543 Delete type=2 #63
+2024/07/18-20:53:05.285 543 Delete type=2 #56
+2024/07/18-20:53:05.285 543 Delete type=2 #60
+2024/07/18-21:08:36.781 543 Level-0 table #67: started
+2024/07/18-21:08:36.790 543 Level-0 table #67: 3166333 bytes OK
+2024/07/18-21:08:36.790 543 Delete type=0 #62
+2024/07/18-21:52:59.196 543 Level-0 table #69: started
+2024/07/18-21:52:59.197 543 Level-0 table #69: 35161 bytes OK
+2024/07/18-21:52:59.198 543 Delete type=0 #66
+2024/07/19-01:11:25.599 543 Level-0 table #71: started
+2024/07/19-01:11:25.610 543 Level-0 table #71: 31180 bytes OK
+2024/07/19-01:11:25.611 543 Delete type=0 #68
+2024/07/19-04:03:20.146 543 Level-0 table #73: started
+2024/07/19-04:03:20.156 543 Level-0 table #73: 21411 bytes OK
+2024/07/19-04:03:20.157 543 Delete type=0 #70
+2024/07/19-04:03:20.158 543 Compacting 4@0 + 2@1 files
+2024/07/19-04:03:20.164 543 Generated table #74@0: 6 keys, 2382950 bytes
+2024/07/19-04:03:20.174 543 Generated table #75@0: 52 keys, 820444 bytes
+2024/07/19-04:03:20.174 543 Compacted 4@0 + 2@1 files => 3203394 bytes
+2024/07/19-04:03:20.175 543 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/07/19-04:03:20.175 543 Delete type=2 #67
+2024/07/19-04:03:20.175 543 Delete type=2 #73
+2024/07/19-04:03:20.175 543 Delete type=2 #71
+2024/07/19-04:03:20.175 543 Delete type=2 #64
+2024/07/19-04:03:20.175 543 Delete type=2 #65
+2024/07/19-04:03:20.175 543 Delete type=2 #69

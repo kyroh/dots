@@ -1,64 +1,94 @@
+@import url('/home/kyroh/.cache/wal/colors-waybar.css');
+
 * {
     font-family: "ShureTechMono Nerd Font";
-    font-size: 10pt;
-    font-weight: bold;
-    border-radius: 0px;
+}
+
+window#waybar {
+    background: alpha(@background, .85);
+    color: @foreground;
     transition-property: background-color;
-    transition-duration: 0.5s;
-}
-
-@keyframes blink_red {
-    to {
-        background-color: #0f0f10;
-        color: rgb(26, 24, 38);
+    transition-duration: .5s;
+    box-shadow: 10px 45px 45px 0px @background;
+-webkit-box-shadow: 10px 45px 45px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 45px 45px 0px rgba(0,0,0,0.75);
+    border-style: solid;
+ /*   border-bottom: 1px solid @color0; */
     }
+
+window#waybar.hidden {
+    opacity: 0.2;
+
 }
 
-.warning, .critical, .urgent {
-    animation-name: blink_red;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    box-shadow: inset 0 -3px transparent;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0px;
 }
 
-#waybar {
-    background-color: transparent;
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+    background: #C0A36E;
 }
+#workspaces{
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+  animation: ws_hover 20s ease-in-out 1;
 
-#waybar > box {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    background-color: rgba(15, 15, 16, 1);
-}
-
-
-#workspaces {
-    padding-left: 0px;
-    padding-right: 4px;
 }
 
 #workspaces button {
-    padding-left: 6px;
-    padding-right: 6px;
-    color: #5D8879;
+    padding: 0 5px;
+    margin: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border-radius: 12px;
+    color: @color2;
+    animation: ws_normal 20s ease-in-out 1;
 }
 
 #workspaces button.active {
-    background-color: #A39C90;
-    color: #0f0f10;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: @color6;
+    color: @background;
+    border-radius: 0px;
+    font-weight: bolder;
+    font-style: italic;
+    animation: ws_active 20s ease-in-out 1;
+
+
+}
+/* Define the @keyframes rule for the elementspin animation */
+
+
+
+#workspaces button:hover {
+    background-color: @color2;
+    color: @color0;
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
 }
 
 #workspaces button.urgent {
-    color: rgb(26, 24, 38);
+    color: @color0;
+    background-color: @color3;
+    border-radius: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-#workspaces button:hover {
-    background-color: #0f0f10;
-    color: #A85A5E;
-}
-
 tooltip {
     background: #3b4253;
 }

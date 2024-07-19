@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/kyroh/.config/wallpapers/763931.png"
+let background = "#0e0f18"
+let foreground = "#efe6e0"
+let cursor     = "#efe6e0"
+
+" Colors
+let color0  = "#0e0f18"
+let color1  = "#476E90"
+let color2  = "#967789"
+let color3  = "#55B5CB"
+let color4  = "#AA9598"
+let color5  = "#D4AB99"
+let color6  = "#C6D5D1"
+let color7  = "#efe6e0"
+let color8  = "#a7a19c"
+let color9  = "#476E90"
+let color10 = "#967789"
+let color11 = "#55B5CB"
+let color12 = "#AA9598"
+let color13 = "#D4AB99"
+let color14 = "#C6D5D1"
+let color15 = "#efe6e0"
