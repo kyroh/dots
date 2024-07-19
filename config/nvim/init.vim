@@ -2,26 +2,16 @@
 " Initialize stuff
 set number relativenumber
 
-if (has("termguicolors"))
-  set termguicolors
-endif
-
 set clipboard+=unnamedplus
 
 " Keybinds
 let mapleader = " "
-nnoremap j k
-nnoremap k j
 map <leader>n :NvimTreeToggle<CR>
-nnoremap <C-b> <C-w>w
-nnoremap <C-S-C> "+yy
-vnoremap <C-S-C> "+y
 nnoremap <leader>ff :Telescope find_files<CR>
 nnoremap <leader>fg :Telescope live_grep<CR>
 nnoremap <leader>fb :Telescope buffers<CR>
 nnoremap <leader>fh :Telescope help_tags<CR>
 nnoremap <leader>cc :ColorizerToggle <CR>
-nnoremap <leader>s :w<CR>
 nnoremap <leader>. :bnext<CR>
 nnoremap <leader>, :bprev<CR>
 
@@ -44,14 +34,16 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'numToStr/Comment.nvim'
+Plug 'AlphaTechnolog/pywal.nvim', { 'as': 'pywal' }
 
 call plug#end()
 
-colorscheme kanagawa
+colorscheme pywal
 
 " Nvim Tree Setup
 let g:loaded_netrw = 1
 let g:loaded_netrwPlugin = 1
+let g:airline_theme = 'angr'
 lua require('Comment').setup()
 
 lua << EOF
