@@ -29,8 +29,18 @@ require("lazy").setup({
       })
     end
   },
-  {
-  'nvimdev/dashboard-nvim',
+  {"SirVer/ultisnips",
+  dependencies = {
+    "honza/vim-snippets",
+  },
+  config = function()
+    vim.g.UltiSnipsExpandTrigger = "<tab>"
+    vim.g.UltiSnipsJumpForwardTrigger = "<tab>"
+    vim.g.UltiSnipsJumpBackwardTrigger = "<s-tab>"
+    vim.g.UltiSnipsSnippetDirectories = { "UltiSnips" }
+  end
+  },
+  { 'nvimdev/dashboard-nvim',
   event = 'VimEnter',
   config = function()
     require('dashboard').setup {
@@ -38,17 +48,20 @@ require("lazy").setup({
     }
   end,
   dependencies = { {'nvim-tree/nvim-web-devicons'}}
-}
+  }
 })
 
-
-vim.g.vimtex_view_method = 'zathura'  -- Change to your preferred PDF viewer
+vim.g.tex_flavor = 'latex'
+vim.g.vimtex_view_method = 'zathura'
+vim.g.vimtex_quickfix_mode = 0
+vim.g.tex_conceal = 'abdmg'
+vim.opt.conceallevel = 1
 vim.g.vimtex_compiler_latexmk = {
-    options = {
-        '-shell-escape',
-        '-verbose',
-        '-file-line-error',
-        '-synctex=1',
-        '-interaction=nonstopmode'
-    }
+  options = {
+    '-shell-escape',
+    '-verbose',
+    '-file-line-error',
+    '-synctex=1',
+    '-interaction=nonstopmode',
+  }
 }
